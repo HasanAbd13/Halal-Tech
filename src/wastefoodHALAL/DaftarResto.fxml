@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1533.0" style="-fx-background-color: #FFB800;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wastefoodHALAL.DaftarController">
+   <children>
+      <Line endX="1499.0" layoutX="101.0" layoutY="164.0" startX="-100.0" />
+      <Line endX="111.0" endY="-28.0" layoutX="320.0" layoutY="193.0" startX="111.0" startY="707.2000122070312" />
+      <Button fx:id="rekomendasiButton" layoutX="405.0" layoutY="125.0" mnemonicParsing="false" onAction="#handlerekomendasiButton" opacity="0.3" style="-fx-background-color: #FFB800;" text="Rekomendasi Makanan">
+         <font>
+            <Font name="Gill Sans MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="daftarButton" layoutX="851.0" layoutY="125.0" mnemonicParsing="false" onAction="#handledaftarButton" style="-fx-background-color: #FFB800;" text="Daftar Restoran">
+         <font>
+            <Font name="Gill Sans MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <ScrollPane layoutX="272.0" layoutY="165.0" prefHeight="736.0" prefWidth="1265.0">
+         <content>
+            <VBox prefHeight="734.0" prefWidth="1267.0">
+               <children>
+                  <AnchorPane prefHeight="735.0" prefWidth="1126.0" style="-fx-background-color: #F8F8FF;">
+                     <children>
+                        <ImageView fitHeight="188.0" fitWidth="180.0" layoutX="139.0" layoutY="27.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../image/9ff59c05-02a5-42dc-b631-d513240d2005.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="baksoButton" layoutX="306.0" layoutY="285.0" mnemonicParsing="false" onAction="#handlebaksoButton" style="-fx-background-color: #F8F8FF;" text="Bakso Prajurit">
+                           <font>
+                              <Font name="Gill Sans MT Bold" size="16.0" />
+                           </font></Button>
+                        <Line endX="54.199951171875" endY="-1.52587890625E-5" layoutX="414.0" layoutY="87.0" opacity="0.54" startX="-85.80000305175781" startY="-1.52587890625E-5" />
+                        <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="407.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true" style="-fx-focus-traversable: ;">
+                           <image>
+                              <Image url="@../image/Gambar%20Ikon%20Lokasi%20Di%20Peta,%20Lokasi%20Clipart,%20Ikon%20Lokasi,%20Ikon%20Peta%20PNG%20dan%20Vektor%20dengan%20Background%20Transparan%20untuk%20Unduh%20Gratis.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="372.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4,5">
+                           <font>
+                              <Font name="Gill Sans MT" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="437.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2,9 km">
+                           <font>
+                              <Font name="Gill Sans MT" size="10.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="223.0" fitWidth="198.0" layoutX="135.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/5c14a068-d388-44ca-809d-66baa5b9eca5.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="sateButton" layoutX="323.0" layoutY="52.0" mnemonicParsing="false" onAction="#handlesateButton" style="-fx-background-color: #F8F8FF;" text="Sate Bang Anton">
+                           <font>
+                              <Font name="Gill Sans MT Bold" size="16.0" />
+                           </font></Button>
+                        <Line endX="35.70001220703125" layoutX="389.0" layoutY="316.0" opacity="0.54" startX="-71.50001525878906" />
+                        <Text layoutX="419.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1,3 km" wrappingWidth="27.470703125">
+                           <font>
+                              <Font name="Gill Sans MT" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="358.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4,5" wrappingWidth="12.1923828125">
+                           <font>
+                              <Font name="Gill Sans MT" size="10.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="163.0" fitWidth="203.0" layoutX="133.0" layoutY="545.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/nasi%20begana%20or%20nasi%20begono_.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="372.0" layoutY="558.0" opacity="0.3" strokeType="OUTSIDE" strokeWidth="0.0" text="Nasi Rames Pak Dadang (tutup)">
+                           <font>
+                              <Font name="Gill Sans MT Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Line endX="153.300048828125" endY="1.220703125E-4" layoutX="439.0" layoutY="579.0" opacity="0.54" startX="-88.80006408691406" startY="6.103515625E-5" />
+                        <Text layoutX="476.0" layoutY="610.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5,2 km">
+                           <font>
+                              <Font name="Gill Sans MT" size="10.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="401.0" layoutY="605.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4,1">
+                           <font>
+                              <Font name="Gill Sans MT" size="10.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="34.0" fitWidth="28.0" layoutX="324.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Golden%20Stars%20Png%20Download%20-%20Transparent%20Background%20Star%20Png,%20Png%20Download%20,%20Transparent%20Png%20Image%20-%20PNGitem.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="34.0" fitWidth="28.0" layoutX="339.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Golden%20Stars%20Png%20Download%20-%20Transparent%20Background%20Star%20Png,%20Png%20Download%20,%20Transparent%20Png%20Image%20-%20PNGitem.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="34.0" fitWidth="28.0" layoutX="365.0" layoutY="591.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/Golden%20Stars%20Png%20Download%20-%20Transparent%20Background%20Star%20Png,%20Png%20Download%20,%20Transparent%20Png%20Image%20-%20PNGitem.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="393.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true" style="-fx-focus-traversable: ;">
+                           <image>
+                              <Image url="@../image/Gambar%20Ikon%20Lokasi%20Di%20Peta,%20Lokasi%20Clipart,%20Ikon%20Lokasi,%20Ikon%20Peta%20PNG%20dan%20Vektor%20dengan%20Background%20Transparan%20untuk%20Unduh%20Gratis.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="445.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true" style="-fx-focus-traversable: ;">
+                           <image>
+                              <Image url="@../image/Gambar%20Ikon%20Lokasi%20Di%20Peta,%20Lokasi%20Clipart,%20Ikon%20Lokasi,%20Ikon%20Peta%20PNG%20dan%20Vektor%20dengan%20Background%20Transparan%20untuk%20Unduh%20Gratis.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <ImageView fitHeight="112.0" fitWidth="108.0" layoutX="1415.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/c18c2423-9b2e-4cf9-8ef8-ba5a4a6fcce8.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="menambahButton" layoutX="59.0" layoutY="248.0" mnemonicParsing="false" onAction="#handlemenambahButton" opacity="0.3" text="MENAMBAH">
+         <font>
+            <Font name="Gill Sans MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="pesanmakananButton" layoutX="28.0" layoutY="362.0" mnemonicParsing="false" onAction="#handlepesanmakananButton" text="PESAN MAKANAN">
+         <font>
+            <Font name="Gill Sans MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="163.0" fitWidth="380.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/LOGO%20HALAL.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="logoutButton" layoutX="74.0" layoutY="776.0" mnemonicParsing="false" onAction="#handlelogoutButton" text="LOGOUT">
+         <font>
+            <Font name="Gill Sans MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="91.0" layoutY="713.0" mnemonicParsing="false" onAction="#handlebackButton" text="BACK">
+         <font>
+            <Font name="Gill Sans MT Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
